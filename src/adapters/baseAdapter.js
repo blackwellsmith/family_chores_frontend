@@ -1,5 +1,5 @@
 class BaseAdapter{
-    constructor(baseURL = 'http://localhost:3000') {
+    constructor(baseURL = 'https://legendary-anti-procrastinator.herokuapp.com') {
         this.baseURL = baseURL 
         this.token = null
     }

@@ -1,6 +1,6 @@
-html, body, h1, h2, h3, h4, h5, h6 {
+html, body, h1, h2, h3, h4, h5, h6 ,label {
     font-family: 'Sacramento', cursive;
-    font-weight: 600;
+    font-weight: 800;
     color:rgb(82, 12, 136);
   }
 
@@ -9,7 +9,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   #delete {color: red}
 
   ul li{
-    font-size:40px;
+    font-size: 35px;
     color: rgb(82, 12, 136);
    }
 
@@ -31,4 +31,10 @@ html, body, h1, h2, h3, h4, h5, h6 {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
-    
+   .form-group {
+    font-size: 35px;
+   } 
+
+   .form-control {
+     font-size: 25px
+   }
