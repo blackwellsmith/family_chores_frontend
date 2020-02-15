@@ -45,6 +45,7 @@ class User{
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+      <a class="btn btn-primary" href="#" role="button">Logout</a>
       <br>
       
 
