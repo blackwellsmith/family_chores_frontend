@@ -32,9 +32,9 @@ html, body, h1, h2, h3, h4, h5, h6 ,label {
       100% { transform: rotate(360deg); }
     }
    .form-group {
-    font-size: 35px;
+    font-size: 33px;
    } 
 
    .form-control {
-     font-size: 25px
+     font-size: 20px
    }
