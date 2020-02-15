@@ -8,21 +8,33 @@ class CleaningTipsPage extends PageManager{
     initBindingsAndEventListeners() { 
 
     }
-
+   //this was changed to an about page
     get staticHTML() {
         return (`
         <div>
-        <br>
-        <h1>Cleaning can feel like a burden, with a few different tips we can knock the dust off of anything!</h1>
-        <br>
-        <h2>The lonely sock.....We all know that little guy, how about we put him to work! They have more use then you think.🧦</h2>
-        <br>
+          <br>
+        <h1>Feeling like you don't have time is normal. We are here to help with this simple app.</h1>
+          <br>
+        <h2>You can make whatever goals you want. They could be....</h2>
+          <br>
         
         <ul>
-        <li>dusting widows, fans, doors, trim, blinds, around furniture, mirrors, you name it</li>
-        <li>covering for a ice pack
-        <li>fill with rice and put in microwave for 30 seconds now you got a hot pad</li>
+        <li>Going back to school</li>
+        <li>Getting in shape</li>
+        <li>Keeping into touch with friends</li>
+        <li>the list could go on and on</li>
         </ul>
+          <br>
+        <h2>To finish goals you have to address them on a daily basis you can't ignore them.</h2>
+          <br>
+        <h2>You also have the ability to prioritize your goals, some need attention sooner then others!</h2>
+          <br>
+        <h2>We suggest you create a new habit of checking you list everyday and see what you can do now.</h2>
+          <br>
+        <h2>Remember to keep positive about your goals and realize everyone has set backs.</h2>
+          <br>
+        <h2>Every journey is different what will yours be?</h2>
+          <br>
         </div>
         `)
     }

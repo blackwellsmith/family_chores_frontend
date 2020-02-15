@@ -35,12 +35,12 @@ class LoginPage extends PageManager{
         <form id="login-form">
         <div class="form-group">
           <label for="email">Email address</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+          <input type="email" class="form-control input-lg" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
           <label for="password">Password</label>
-          <input type="password" class="form-control" id="password" placeholder="Password" required>
+          <input type="password" class="form-control input-lg" id="password" placeholder="Password" required>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
         </form>
