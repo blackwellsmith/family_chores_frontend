@@ -33,7 +33,7 @@ class Navbar extends PageManager{
     get staticHTML() {
         if (this.is_authenticated) {
             return (`
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light">
               <a class="navbar-brand" href="#">🧹 AntiProcrastinator</a>
               <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
               aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
