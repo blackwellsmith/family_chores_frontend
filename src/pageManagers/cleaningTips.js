@@ -15,13 +15,15 @@ class CleaningTipsPage extends PageManager{
           <br>
         <h1>Feeling like you don't have time is normal. We are here to help with this simple app.</h1>
           <br>
-        <h2>You can make whatever goals you want. They could be....</h2>
+        <h2>You can make whatever goals you want. Goals could also be about doing things you love as well. Life isn't always abou work but unfinished work can strip your free time of it's enjoyment. They could be....</h2>
           <br>
         
         <ul>
         <li>Going back to school</li>
         <li>Getting in shape</li>
         <li>Keeping into touch with friends</li>
+        <li>Start painting again</li>
+        <li>Write a poem</li>
         <li>the list could go on and on</li>
         </ul>
           <br>

@@ -24,7 +24,7 @@ class EnjoyingLifePage extends PageManager{
             <li>Cook your favorite meal</li>
             <li>Walk in the woods</li>
             <li>Get up, Get out and do something!</li>
-            <li>Take up archery<li>
+            <li>Take up archery
           </ul>
         <br>
         <h1>Your Life is waiting!</h1>
