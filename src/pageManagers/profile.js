@@ -22,9 +22,7 @@ class ProfilePage extends PageManager{
     }
 
     handleChoreDelete(e) {
-        //const li = e.target.parentNode
         const choreId = e.target.dataset.id
-        //console.log(choreId)
         if (e.target.nodeName === "A") { e.target.parentNode.remove() }
         this.choreAdapter.deleteChore(choreId).then(() =>{ this.redirect('profile')})
           
@@ -32,20 +30,15 @@ class ProfilePage extends PageManager{
 
     async handleNewChoreSubmit(e) {
         e.preventDefault()
-        console.log(e.target)
         const inputs = Array.from(e.target.querySelectorAll('input'))
         const select = e.target.querySelectorAll('select')
         const priority = select[0].value
-        //console.log(p)
         const [name, notes] = inputs.map(input => input.value)
-        //console.log(this.user)
         const params = { chore: { name, notes, priority } }
-        console.log(params)
         try {
           await this.choreAdapter.newChore(params)
           this.redirect('profile')
         } catch(err){
-          //this.handleAlert(err, 'Danger')
           this.handleError(err)
         }
       }

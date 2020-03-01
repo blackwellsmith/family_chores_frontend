@@ -15,22 +15,22 @@ class EnjoyingLifePage extends PageManager{
           <br>
             <h1>You are Legendary! Enjoy!</h1>
               <br>
-           <ul>
-            <li>Go to a movie</li>
-            <li>Eat pizza</li>
-            <li>Walk your dog</li>
-            <li>Pull out those old board games</li>
-            <li>Plant some tulips</li>
-            <li>Cook your favorite meal</li>
-            <li>Walk in the woods</li>
-            <li>Get up, Get out and do something!</li>
-            <li>Take up archery
-          </ul>
+                <ul>
+                  <li>Go to a movie</li>
+                  <li>Eat pizza</li>
+                  <li>Walk your dog</li>
+                  <li>Pull out those old board games</li>
+                  <li>Plant some tulips</li>
+                  <li>Cook your favorite meal</li>
+                  <li>Walk in the woods</li>
+                  <li>Get up, Get out and do something!</li>
+                  <li>Take up archery
+                </ul>
+              <br>
+            <h1>Your Life is waiting!</h1>
+          <br>
         <br>
-        <h1>Your Life is waiting!</h1>
-        <br>
-        <br>
-        </div>
+      </div>
         `)
     }
 }

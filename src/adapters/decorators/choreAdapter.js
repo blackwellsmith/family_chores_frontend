@@ -24,9 +24,7 @@ class ChoreAdapter{
             body: JSON.stringify(params)
         })
         await this.baseAdapter.checkStatus(res)
-        console.log(res)
-        //this.baseAdapter.token = res.headers.get("authorization").split(' ')[1]
-       
+        console.log(res) 
     }
 
     deleteChore(id) {
