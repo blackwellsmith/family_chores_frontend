@@ -36,5 +36,6 @@ body { background-color: beige;
 } 
 
 .form-control {
+  max-width: 300px;
   font-size: 20px
 }
