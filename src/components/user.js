@@ -45,7 +45,9 @@ class User {
                       </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
+              </br>
             </div>
+          </br>
         `)
     } else {
       return (`
@@ -83,8 +85,10 @@ class User {
                       </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
-                    </div>
-                    `)
+            </br>
+          </div>
+        </br>
+     `)
 
       }
     }

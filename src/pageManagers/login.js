@@ -32,7 +32,8 @@ class LoginPage extends PageManager{
         return (`
         <h2>Login</h2>
         <form id="login-form">
-          <div class="form-group row">
+          <div class="form-group">
+            <div class="row">
             <div class="col-xs-4">
             <label for="email">Email address</label>
               <input type="email" class="form-control input-lg" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
@@ -41,6 +42,7 @@ class LoginPage extends PageManager{
           <div class="col-xs-4">
             <label for="password">Password</label>
               <input type="password" class="form-control input-lg" id="password" placeholder="Password" required>
+          </div>
           </div>
           </div>
             <button type="submit" class="btn btn-primary">Submit</button>
