@@ -32,16 +32,16 @@ class LoginPage extends PageManager{
         return (`
         <h2>Login</h2>
         <form id="login-form">
-          <div class="form-group">
-            <div class="col-xs-2">
+          <div class="form-group row">
+            <div class="col-xs-4">
             <label for="email">Email address</label>
               <input type="email" class="form-control input-lg" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email</small>
           </div>
-          <div class="form-group">
+          <div class="col-xs-4">
             <label for="password">Password</label>
               <input type="password" class="form-control input-lg" id="password" placeholder="Password" required>
+          </div>
           </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
