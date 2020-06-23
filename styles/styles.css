@@ -10,7 +10,7 @@ html, body, h1, h2, h3, h4, h5, h6 ,label {
 
 ul li{
   font-size: 35px;
-  color: rgb(82, 12, 136);
+  color: blue;
 }
 
 body { background-color: beige;
